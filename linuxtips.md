@@ -48,4 +48,3 @@ and this one: https://tmuxcheatsheet.com/
 
 ## TODO
 * SSH
-* TMUX
