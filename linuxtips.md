@@ -2,6 +2,15 @@
 ## CLI trouble shooting
 follow a log file
   `tail -f`
+## SSH commands
+start an SSH session with the CLI
+## System commands
+check for system updates
+  `sudo apt-get update`
+check for programs that have available upgrades
+  `sudo apt list --upgradeable`
+install upgrades for specific programs
+  `sudo apt-get upgrade <program name>`
 ## TMUX
 tmux is an awesome tool that gives you a terminal session on a server so that if you lose your connection or ssh session you can continue where you left off.
 
