@@ -3,7 +3,25 @@
 follow a log file
   `tail -f`
 ## SSH commands
-start an SSH session with the CLI
+Turn on SSH
+  `service shh start`
+
+Restart ssh
+  `service ssh restart`
+
+## File permission
+view permissions for a file
+  `ls -l`
+
+when viewing file permissions there are three user based permissions groups, "owner, group, all users". the three permissions that can be given are "R" read, "W" write, "X" execute. `_RWXRWXRWX` this indicates that owner, group, and all users have the permissions to read, write, and execute.
+
+assigning permissions
+  `chmod` followed by designated group followed by + or - then the permission and file name eg. `chmod a+rw filename.sh` this would give read and write to all users for filename.sh
+
+assigning permissions with binary
+  `chmod 640 filename.sh` would give read and write to owner, read to groups, and no permissions to all users.
+
+R = 4, W = 2, X = 1. RWX = 7, RW = 6
 
 ## System commands
 check for system updates
